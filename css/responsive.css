@@ -353,6 +353,13 @@
     }
 }
 
+@media all and (max-width:380px) {
+    .play-button-animation::before {
+        top: -10px;
+        left: -10px;
+    }
+}
+
 @media all and (max-width:350px) {
     .slider-content h1 {
         font-size: 20px;
