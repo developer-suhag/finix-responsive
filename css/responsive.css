@@ -358,6 +358,9 @@
         top: -10px;
         left: -10px;
     }
+	    .service-tab-items li a.active ::after {
+        display: none;
+    }
 }
 
 @media all and (max-width:350px) {
